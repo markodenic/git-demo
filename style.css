@@ -3,6 +3,7 @@
 :root {
 	--primary-clr: #4d194d;
 	--primary-clr-alt: #312244;
+	--primary-clr-alt-1: #312244;
 }
 
 /* -------------- */
@@ -43,4 +44,13 @@ main {
 	color: var(--primary-clr-alt);
 	opacity: .8;
 }
-
+.contributar {
+	color: var(--primary-clr-alt-1);
+	font-size: .7rem;
+	padding: 2rem 0;
+	opacity: .9;
+	letter-spacing: .02rem;
+}
+.contributar-link {
+	color: var(--primary-clr);
+}
